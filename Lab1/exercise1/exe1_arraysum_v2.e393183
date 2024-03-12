@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "exercise1.py", line 11, in <module>
+    array_sum=cp.zeros(N,dtype=cp.int32)
+  File "/work/1/EDU5/guest019/hands-on/venv/lib64/python3.8/site-packages/cupy/_creation/basic.py", line 211, in zeros
+    a = cupy.ndarray(shape, dtype, order=order)
+  File "cupy/_core/core.pyx", line 132, in cupy._core.core.ndarray.__new__
+  File "cupy/_core/core.pyx", line 197, in cupy._core.core._ndarray_base._init
+TypeError: 'float' object cannot be interpreted as an integer
+
+============================================================
+Request ID:             393183.nqsv
+Request Name:           exe1_arraysum_v2
+Queue:                  edu-b@nqsv
+Number of Jobs:         1
+User Name:              guest019
+Group Name:             EDU5
+Created Request Time:   Tue Mar 12 10:56:44 2024
+Started Request Time:   Tue Mar 12 10:56:47 2024
+Ended Request Time:     Tue Mar 12 10:56:48 2024
+Resources Information:
+  Elapse:               4S
+  Remaining Elapse:     296S
+============================================================
